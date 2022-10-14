@@ -1,0 +1,115 @@
+* {
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+
+body {
+    background: linear-gradient(90deg, #008B8B 0%,  #8A2BE2  100%);
+    background-Size : "400% 400%";
+    animation : "gradient 25s ease infinite";
+    color: #763568;
+}
+#everything {
+    margin: 0 auto;
+     width: 80%;
+     background-color: #ffff;
+     opacity: 0.6;
+     border-radius: 50px;
+     font-size: 1.7rem;
+}
+
+#logo1 {
+position: absolute;
+left: 12px;
+top: 15px;
+}
+#logo2{
+    position: absolute;
+    left: 100px;
+    top: 13px;
+}
+p.Q-Arabic , p.Q-English {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+}
+label {
+    font-size: 2rem;
+    color:#008B8B;
+    font-weight: bold;
+}
+input , textarea , select, table{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 90px;
+    background-color:  #E6E6FA;
+    border: none;
+    font-size: 1.3rem;
+
+}
+table {
+    margin: auto;
+    border-radius: 0;
+    border: 1px solid #DCDCDC 	;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #008B8B;
+    color: #ffffff;
+
+}
+tr:hover{
+    background-color: #5F9EA0;
+}
+th , td {
+    border-bottom: 1px solid grey;
+
+}
+
+.contest-title , .week-Num {
+    color :  #ffffff ;
+    font-size: 2.5rem;
+    opacity: 0.7;
+    font-weight: bolder;
+}
+textarea {
+    border-radius: 30px;
+}
+#submit {
+    background-color: #008B8B;
+    color: #ffffff;
+    font-size: 2.1rem;
+}
+#submit:hover{
+    background-color: #5F9EA0;
+
+}
+
+
+
+@media only screen and (max-width:700px){
+    .contest-title  {
+       margin-top: 130px;
+    }
+    #logo1 {
+        top: 20px;
+        }
+    p.Q-Arabic , p.Q-English {
+        font-size: 18px;
+    }
+    table {
+        width: 90%;
+    }
+
+    .week-Num {
+        margin-top: 0;
+    }
+
+    
+}
